@@ -1,0 +1,25 @@
+time="2024-09-06T00:31:33-05:00" level=warning msg="E:\\MAESTRIA\\9. Contenedores\\actividad\\IMAGE_DOCKER_COMPOSE_ACT\\docker-compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+app-1  | (node:1) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+app-1  | (Use `node --trace-warnings ...` to show where the warning was 
+created)
+app-1  | (node:1) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+app-1  | El servidor se está ejecutando en http://localhost:3000        
+app-1  | Error de conexión a la base de datos: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+app-1  |     at _handleConnectionErrors (/app/node_modules/mongoose/lib/connection.js:897:11)
+app-1  |     at NativeConnection.openUri (/app/node_modules/mongoose/lib/connection.js:848:11) {
+app-1  |   reason: TopologyDescription {
+app-1  |     type: 'Unknown',
+app-1  |     servers: Map(1) { 'localhost:27017' => [ServerDescription] 
+},
+app-1  |     stale: false,
+app-1  |     compatible: true,
+app-1  |     heartbeatFrequencyMS: 10000,
+app-1  |     localThresholdMS: 15,
+app-1  |     setName: null,
+app-1  |     maxElectionId: null,
+app-1  |     maxSetVersion: null,
+app-1  |     commonWireVersion: 0,
+app-1  |     logicalSessionTimeoutMinutes: null
+app-1  |   },
+app-1  |   code: undefined
+app-1  | }
